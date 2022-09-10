@@ -19,6 +19,13 @@ Para la configuracion de la red neuronal se ocuparon 7 capas ocultas,cada capa c
 La funcion de activacion elegida fue la relu debido a que funciona mejor para redes neuronales
 
 ## Caracteristicas del dataset
+
+Dataset de tumores benignos y malignos de Seno
+
+Link:
+
+https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+
 ### Variables independientes
 Las 10 principales  caracteristicas del dataset son:
 

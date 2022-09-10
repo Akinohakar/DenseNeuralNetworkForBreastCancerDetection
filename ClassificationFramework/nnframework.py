@@ -1,4 +1,36 @@
+'''
+Momento de retroalimentacion 2
+Alan Eduardo Aquino Rosas
 
+Para este modelo se trabajo sobre un dataset para la detencion de cancer de seno
+Debido a la complejidad del dataset,con un total de 30 caracteristicas/dimensiones se decidio usar una metodo de la libreria de scikit-learn para redes neurnales.
+Asi en las capas ocultas se puedan computar nuevas caracteristicas y funciones mas interesantes
+
+Las 10 principales  caracteristicas del dataset son:
+
+a) radius (mean of distances from center to points on the perimeter)
+b) texture (standard deviation of gray-scale values)
+c) perimeter
+d) area
+e) smoothness (local variation in radius lengths)
+f) compactness (perimeter^2 / area - 1.0)
+g) concavity (severity of concave portions of the contour)
+h) concave points (number of concave portions of the contour)
+i) symmetry
+j) fractal dimension ("coastline approximation" - 1)
+
+Las demas caracteristicas son medidas estadisticas
+
+La variable dependiente que queremos predecir correctamente a partir de nuestras caracteristicas es Si el tumor es benigno o maligno
+
+Si es benigno y=0
+Si es maligno y=1
+
+
+Para la configuracion de la red neuronal se ocuparon 7 capas ocultas,por automatico una de salida
+
+La funcion de activacion elegida fue la relu debido a que funciona mejor para redes neuronales
+'''
 
 
 #Importancion de librerias 

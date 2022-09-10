@@ -1,7 +1,7 @@
 
 
 
-#Importancion de librerias 
+#Importacion de librerias 
 import pandas as pd #For dataset reading
 from sklearn.model_selection import train_test_split #For Training/Cross-Validation/Test
 from sklearn.neural_network import MLPClassifier

@@ -84,5 +84,9 @@ El training para entrenar el modelo y el validation set para verificar que gener
 ## Resultados
 En el training set obtenemos un score de 1 representado que el 100% se predijo correctamente 
 
-
 En el validation set tenemos un score de 0.958 representando que del 100 se predijo el 95.8% correctamente 
+
+### Metricas desempeño
+![image](https://user-images.githubusercontent.com/43545831/190531772-ec1fc048-4c0d-4c2f-8766-d2f72883a83f.png)
+
+
